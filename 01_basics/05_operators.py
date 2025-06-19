@@ -1,4 +1,4 @@
-# AIMLAvengers/basics/05_operators.py
+# AIMLAvengers/01_basics/05_operators.py
 
 a, b = 10, 5
 

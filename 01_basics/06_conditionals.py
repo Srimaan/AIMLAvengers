@@ -1,4 +1,4 @@
-# AIMLAvengers/basics/06_conditionals.py
+# AIMLAvengers/01_basics/06_conditionals.py
 
 x = 15
 if x > 10:

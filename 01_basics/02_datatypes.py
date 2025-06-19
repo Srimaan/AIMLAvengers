@@ -11,7 +11,7 @@ print(result, x, y)
 # Output: 13.0 3 123
 
 
-# AIMLAvengers/basics/04_input_output.py
+# AIMLAvengers/01_basics/04_input_output.py
 
 # User input/output in Python
 
