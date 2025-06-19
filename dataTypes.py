@@ -1,24 +1,75 @@
+# datatypes.py
 
-from typing import Final
+# -------------------------------
+# Basic Data Types
+# -------------------------------
 
-number: int = 10
-decimal: float = 10.5
-text: str = 'hello'
-active: bool = True
+age: int = 25
+# Output: <class 'int'>
+"""
+Java:
+int age = 25;
+"""
 
-names: list = ['Bob', 'Anna', 'Luigi'] #List
-coordinates: tuple = (1.5,2.5) #Array
-unique: set = {1,4,2,9} #Set
-map: dict = {'name': 'Bob', 'age': 20}; #Map
+height: float = 5.9
+# Output: <class 'float'>
+"""
+Java:
+float height = 5.9f;
+"""
 
+name: str = "Alice"
+# Output: <class 'str'>
+"""
+Java:
+String name = "Alice";
+"""
 
-VERSION: Final[str] = "1.0";  #final
+is_student: bool = True
+# Output: <class 'bool'>
+"""
+Java:
+boolean isStudent = true;
+"""
 
-#Method / funciton
-def show_data() -> None:
-  print(f'Greetings, {names}!');
+# -------------------------------
+# Collections
+# -------------------------------
 
-#Method with Paramaters
-def add(a:int , b:int ) -> int:
-  return a + b;
+fruits: list[str] = ["apple", "banana", "cherry"]
+# Output: ['apple', 'banana', 'cherry']
+"""
+Java:
+ArrayList<String> fruits = new ArrayList<>(
+    Arrays.asList("apple", "banana", "cherry"));
+"""
 
+coordinates: tuple[float, float] = (10.5, 20.3)
+# Output: (10.5, 20.3)
+"""
+Java:
+No built-in Tuple.
+Use custom class or javafx.util.Pair.
+"""
+
+unique_numbers: set[int] = {1, 2, 3, 2}
+# Output: {1, 2, 3}
+"""
+Java:
+Set<Integer> uniqueNumbers = new HashSet<>(
+    Arrays.asList(1, 2, 3, 2));
+"""
+
+person: dict[str, object] = {
+    "name": "Bob",
+    "age": 30,
+    "is_employee": True
+}
+# Output: {'name': 'Bob', 'age': 30, 'is_employee': True}
+"""
+Java:
+Map<String, Object> person = new HashMap<>();
+person.put("name", "Bob");
+person.put("age", 30);
+person.put("is_employee", true);
+"""
