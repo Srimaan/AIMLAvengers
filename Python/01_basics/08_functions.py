@@ -1,4 +1,4 @@
-# AIMLAvengers/01_basics/08_functions.py
+# AIMLAvengers/01_basics.py/08_functions.py
 
 def greet(name: str) -> None: #return type as void and input as String
     print(f"Hello, {name}!")

@@ -1,4 +1,4 @@
-# AIMLAvengers/01_basics/07_loops.py
+# AIMLAvengers/01_basics.py/07_loops.py
 
 # For loop
 for i in range(3):
